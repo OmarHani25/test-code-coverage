@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "cypress": "cypress",
-    "see-cy-coverage": "open ./cypress-coverage/lcov-report/index.html",
+    "cypress": "cypress open",
+    "see-cy-coverage": "start cypress-coverage/lcov-report/index.html",
     "start": "next start"
   },
   "dependencies": {
@@ -35,5 +35,6 @@
     "cypress": "12.3.0",
     "nyc": "15.1.0",
     "typescript": "4.9.4"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
