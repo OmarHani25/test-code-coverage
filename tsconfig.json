@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-      "types": ["jest", "@testing-library/jest-dom"],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
     "allowJs": true,
     "alwaysStrict": true,
     "downlevelIteration": true,
