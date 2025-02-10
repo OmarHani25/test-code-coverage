@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+      "types": ["jest", "@testing-library/jest-dom"],
     "allowJs": true,
     "alwaysStrict": true,
     "downlevelIteration": true,
@@ -37,6 +38,7 @@
     ".nyc_output",
     "cypress-coverage",
     "coverage",
-    "jest-coverage"
+    "jest-coverage",
+    "cypress.config.ts"
   ]
 }
